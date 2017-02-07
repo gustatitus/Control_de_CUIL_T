@@ -37,10 +37,10 @@ function checkcuitl(){
 		return true;
 		}
 		else
-		alert ('CUIT ' + nCuix + ' inválido');
+		alert ('CUIT ' + nCuix + ' inv\u00E1lido');
 		document.getElementById("idcuit").focus();
 	}
-	else alert ('CUIT ' + nCuix + ' inválido');
+	else alert ('CUIT ' + nCuix + ' inv\u00E1lido');
 	document.getElementById("idcuit").focus();
 	return false;
 }
